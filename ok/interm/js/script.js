@@ -52,7 +52,7 @@ $(document).ready(function() {
 
 				$(decrease[i]).click(function(){
 		    		$(amou[i]).text(--counter[i]);
-		    		if (counter[i] <= 1) {
+		    		if (counter[i] < 1) {
 		    			$(fig[i]).css("display", "none");	
 		    		}
 		 		 });

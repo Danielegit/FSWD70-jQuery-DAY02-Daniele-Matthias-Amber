@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Card Game</title>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <style>
+  .draggable {
+   width: 150px; 
+   height: 150px; 
+   padding: 0.5em; 
+   border: solid 1px black;
+ }
+
+  </style>
+
+  <script>
+  $( function() {
+    $( ".draggable" ).draggable();
+  } );
+  var number = 
+$(document).ready(
+    function() {
+        $(".draggable").text("Math.random() * 10) + 1");
+    }
+);
+ 
+  </script>
+</head>
+<body>
+<div id="cards">
+  <div class="draggable" class="ui-widget-content">
+    <p>Card 1</p>
+  </div>
+
+  <div class="draggable" class="ui-widget-content">
+    <p>Card 2</p>
+  </div>
+
+  <div class="draggable" class="ui-widget-content">
+    <p>Card 2</p>
+  </div>
+
+  <div class="draggable" class="ui-widget-content">
+    <p>Card 2</p>
+  </div>
+
+  <div class="draggable" class="ui-widget-content">
+    <p>Card 2</p>
+  </div>
+
+  <div class="draggable" class="ui-widget-content">
+    <p>Card 2</p>
+  </div>
+</div>
+ 
+</body>
+</html>
