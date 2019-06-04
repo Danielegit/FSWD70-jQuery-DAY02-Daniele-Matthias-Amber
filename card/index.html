@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<style>
 
 		#table{
@@ -33,6 +34,15 @@
 			justify-content: space-around;
 			margin-top: 7px;
 		}
+		.draggable {
+  			width: 50; 
+   			height: 50; 
+			padding: 0.5em; 
+			border: solid 1px black;
+ 		}
+ 		#test{
+  			display: flex
+ 		}
 		
 	</style>
 </head>
@@ -81,6 +91,42 @@
 		</div>
 		
 	</div>
+	<div id="test">
+  <div class="draggable">
+    <p>Card 1</p>
+  </div>
+
+  <div class="draggable">
+    <p>Card 2</p>
+  </div>
+
+  <div class="draggable">
+    <p>Card 3</p>
+  </div>
+
+  <div class="draggable">
+    <p>Card 4</p>
+  </div>
+
+  <div class="draggable">
+    <p>Card 5</p>
+  </div>
+
+  <div class="draggable">
+    <p>Card 6</p>
+  </div>
+  <div class="draggable">
+    <p>Card 7</p>
+  </div>
+  <div class="draggable">
+    <p>Card 8</p>
+  </div>
+  <div class="draggable">
+    <p>Card 9</p>
+  </div>
+  <div class="draggable">
+    <p>Card 10</p>
+  </div>
 
 	<script>
 		
@@ -90,6 +136,18 @@
 
 		 $(cards[i]).text(Math.floor(Math.random() * 10) + 1);
 		}
+
+		$( function() {
+    		$( ".draggable" ).draggable();
+  		});
+ 
+
+  		var rndNumber = $(".draggable");
+
+    for(let i = 0; i < rndNumber.length; i++ ){
+
+     $(rndNumber[i]).text(Math.floor(Math.random() * 10) + 1);
+    }
 
 	</script>
 </body>
