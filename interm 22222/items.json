@@ -1,0 +1,85 @@
+var items = [ {
+
+      "UniqueID": "01",
+
+      "name": "milk",
+
+      "price": 1.1,
+
+      "pic": "img/milk.png",
+
+      "amount": 1
+
+   }, {
+
+      "UniqueID": "02",
+
+      "name": "lemons",
+
+      "price": 0.8,
+
+      "pic": "img/lemon.jpg",
+
+      "amount": 3
+
+   },{
+
+      "UniqueID": "03",
+
+      "name": "orange juice",
+
+      "price": "3.9",
+
+      "pic": "img/orange juice.jpg",
+
+      "amount": 2
+
+   },{
+
+      "UniqueID": "04",
+
+      "name": "french cheese",
+
+      "price": "4.9",
+
+      "pic": "img/cheese.jpg",
+
+      "amount": 2
+
+   },{
+
+      "UniqueID": "05",
+
+      "name": "grapes",
+
+      "price": "3.5",
+
+      "pic": "img/grape.jpg",
+
+      "amount": 1
+
+   },{
+
+      "UniqueID": "06",
+
+      "name": "salad",
+
+      "price": "2.5",
+
+      "pic": "img/salad.jpg",
+
+      "amount": 1
+
+   },{
+
+      "UniqueID": "07",
+
+      "name": "aubergine",
+
+      "price": "2.9",
+
+      "pic": "img/aubergine.jpg",
+
+      "amount": 2
+
+   } ]

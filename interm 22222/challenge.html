@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+header{
+			width: 100%;
+			height: : 120px;
+		}
+		header div{
+			width: 100%; 
+			height: 80px;
+			background-color: #66bd66;
+		}
+		nav{
+			border: 2px solid #ff992d;
+			height: 40px;
+			border-radius: 0px  0px 20px 20px ;
+		}
+		ul{
+			margin: 0;
+			display: flex;
+			justify-content: space-around;
+
+		}
+		li{
+			list-style: none;
+			margin: 0;
+		}
+
+		nav a{
+			text-decoration: none; 
+			font-size: 25px;
+			color: brown;
+		}
+		header h2{
+			padding: 25px 0px 0px 30px;
+			font-size:35px;
+			color: brown;
+		}
+		#hero {
+			width: 99%;
+			margin: 0 auto;
+			padding: 30px 0px 30px 0px;
+
+		}
+		#hero img{
+			width: 99%;
+
+		}
+		#container{
+			
+			width: 99%;
+			height: 60em;
+			
+		}
+		#container>div{
+			height: 28em;
+			margin-bottom: 2em;
+
+			background: -moz-linear-gradient(left,  rgba(132,229,75,0.68) 0%, rgba(145,232,66,0.57) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left,  rgba(132,229,75,0.68) 0%,rgba(145,232,66,0.57) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right,  rgba(132,229,75,0.68) 0%,rgba(145,232,66,0.57) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad84e54b', endColorstr='#9191e842',GradientType=1 ); /* IE6-9 */
+
+			width: 99%;
+			display: flex;
+			justify-content: space-around;
+		}
+		.myimgs{
+			width: 20em;
+			height: 17em;
+			background-color: white;
+			border: 2px solid green;
+		}
+
+		.price{
+			font-family: monospace;
+			font-size:  22px;
+		}
+		.myp{
+			font-family: monospace;
+			font-size:  22px;
+			
+		}
+
+		p{
+			font-size: 22px;
+			font-family: monospace;
+		}
+
+
+		figure{
+			width: 13em;
+			height: 10em;
+			background-color: white;
+			border: 2px solid green;
+			display: flex;
+			margin-bottom: 5em;
+		}
+
+		figure img{
+			width: 13em;
+			height: 10em;
+
+		}
+		#basket{
+			margin: 0 auto;
+			width: 90%;
+			display: flex;
+			justify-content: space-around;
+		}
+		
+		#basket div{
+			background-color: #fbdb65;
+			display: flex;
+			flex-direction: column;
+			width: 40%;
+		}
+		 #basket figure{
+			display: none;
+		} 
+
+		#tot{
+			width: 40% !important;
+			height: 20em;
+			background-color: #b3bc20 !important;
+			z-index: 7;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+	<header id="header" class="">
+		<div>
+			<h2>Online Shoping</h2>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="" title="">Home</a></li>
+				<li><a href="" title="">buy</a></li>
+				<li><a href="" title="">shues</a></li>
+				<li><a href="" title="">other</a></li>
+			</ul>
+		</nav>
+	</header><!-- /header -->
+	<div id="hero">
+		<img src="img/img.jpg" alt="">
+	</div>
+
+		<div id="container">
+
+		<div class="items1">
+			<div>
+				<img src="" class="myimgs" alt="">
+				<h3>brand price</h3>
+				<input class="btn" type="button" value="Add to your cart" id="sport" name="">
+
+			</div>
+			<div>
+				<img src="" class="myimgs"  alt="">
+				<h3>brand price</h3>
+				<input class="btn" type="button" value="Add to your cart" id="sport2" name="">
+			</div>
+			<div>
+				<img src="" class="myimgs"  alt="">
+				<h3>brand price</h3>
+				<input class="btn" type="button" value="Add to your cart" id="sport3" name="">
+			</div>		
+					
+		</div>
+
+		<div class="items1">
+			<div>
+				<img src="" class="myimgs"  alt="">
+				<h3>brand price</h3>
+				<input class="btn" type="button" value="Add to your cart" id="sport" name="">
+
+			</div>
+			<div>
+				<img src="" class="myimgs"  alt="">
+				<h3>brand price</h3>
+				<input class="btn" type="button" value="Add to your cart" id="sport2" name="">
+			</div>
+			<div>
+				<img src="" class="myimgs"  alt="">
+				<h3>brand price</h3>
+				<input class="btn" type="button" value="Add to your cart" id="sport3" name="">
+			</div>		
+					
+		</div>
+		</div>
+
+		<div id="basket">
+
+			<div>
+				
+			
+				<figure>
+					<img class="shop_b" alt="">
+					<figcaption><p class="info">llllll</p></figcaption>
+				</figure>
+
+				<figure>
+					<img class="shop_b" alt="">
+					<figcaption><p class="info">llllll</p></figcaption>
+				</figure>
+
+				<figure>
+					<img class="shop_b" alt="">
+					<figcaption><p class="info">llllll</p></figcaption>
+				</figure>
+
+				<figure>
+					<img class="shop_b" alt="">
+					<figcaption><p class="info">llllll</p></figcaption>
+				</figure>
+
+				<figure>
+					<img class="shop_b" alt="">
+					<figcaption><p class="info">llllll</p></figcaption>
+				</figure>
+
+				<figure>
+					<img class="shop_b" alt="">
+					<figcaption><p class="info">llllll</p></figcaption>
+				</figure>
+			</div>
+
+			<div id="tot">
+				asjldfkasf
+			</div>
+		
+			 
+		</div>
+			
+	
+	
+
+	<script src="items.json"></script>
+	<script src="js/script.js"></script>
+
+
+</body>
+</html>
