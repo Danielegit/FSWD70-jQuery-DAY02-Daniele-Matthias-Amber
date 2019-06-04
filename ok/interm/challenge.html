@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="">
 	<style type="text/css" media="screen">
 header{
 			width: 100%;
@@ -112,6 +112,7 @@ header{
 			width: 90%;
 			display: flex;
 			justify-content: space-around;
+			background-color: #fbdb65;
 		}
 		
 		#basket div{
@@ -120,24 +121,30 @@ header{
 			flex-direction: column;
 			width: 40%;
 		}
+
+
 		 #basket figure, .button-container{
+			display: none;
+		} 
+		
+		 #basket figure{
 			display: none;
 		} 
 
 		#tot{
+			visibility: hidden;
 			width: 40% !important;
-			height: 20em;
+			border-radius: 50px;
+
 			background-color: #b3bc20 !important;
 			z-index: 7;
 		}
-		.button-container{
-			display: flex !important ;
-			flex-direction: row !important;
-			height: 2em;
 
-		}
-		button{
-			margin: 5px;
+		footer{
+			margin-top: 2em;
+			width: 98%;
+			height: 12em;
+			background-color: #66bd66;
 		}
 	</style>
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -188,7 +195,6 @@ header{
 				<img src="" class="myimgs"  alt="">
 				<h3>brand price</h3>
 				<input class="btn" type="button" value="Add to your cart" id="sport" name="">
-
 			</div>
 			<div>
 				<img src="" class="myimgs"  alt="">
@@ -212,7 +218,7 @@ header{
 				<figure>
 					<img class="shop_b" alt="">
 					<figcaption><p class="info">llllll</p>
-						<p class="amount">1</p>
+						<p class="amount"></p>
 					<div class="button-container">
 						
 						<button class="btn-inc" type="button" value="+">+</button>
@@ -227,7 +233,7 @@ header{
 				<figure>
 					<img class="shop_b" alt="">
 					<figcaption><p class="info">llllll</p>
-						<p class="amount">1</p>
+						<p class="amount"></p>
 					<div class="button-container">
 						
 						<button class="btn-inc" type="button" value="+">+</button>
@@ -242,7 +248,7 @@ header{
 				<figure>
 					<img class="shop_b" alt="">
 					<figcaption><p class="info">llllll</p>
-						<p class="amount">1</p>
+						<p class="amount"></p>
 					<div class="button-container">
 						
 						<button class="btn-inc" type="button" value="+">+</button>
@@ -257,7 +263,7 @@ header{
 				<figure>
 					<img class="shop_b" alt="">
 					<figcaption><p class="info">llllll</p>
-						<p class="amount">1</p>
+						<p class="amount"></p>
 					<div class="button-container">
 						
 						<button class="btn-inc" type="button" value="+">+</button>
@@ -272,7 +278,7 @@ header{
 				<figure>
 					<img class="shop_b" alt="">
 					<figcaption><p class="info">llllll</p>
-						<p class="amount">1</p>
+						<p class="amount"></p>
 					<div class="button-container">
 						
 						<button class="btn-inc" type="button" value="+">+</button>
@@ -287,7 +293,7 @@ header{
 				<figure>
 					<img class="shop_b" alt="">
 					<figcaption><p class="info">llllll</p>
-						<p class="amount">1</p>
+						<p class="amount"></p>
 					<div class="button-container">
 						
 						<button class="btn-inc" type="button" value="+">+</button>
@@ -298,23 +304,22 @@ header{
 				</figcaption>
 				
 				</figure>
-
-				
-						
-			
-				
-
-
 
 			</div>
 
 			<div id="tot">
-				asjldfkasf
+				<div>
+					
+				</div>
 			</div>
 		
 			 
 		</div>
+		
+
+		<footer>
 			
+		</footer>
 	
 	
 
