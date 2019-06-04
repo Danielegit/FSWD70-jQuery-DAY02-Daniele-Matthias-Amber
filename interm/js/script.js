@@ -10,6 +10,14 @@ $(document).ready(function() {
 		$("#basket").append("<p class='myp'>"+items[i].name+" "+items[i].amount+"</p>");
 	
 	}
+var counter = 0;
+$(".cart-qty-plus").click(function(){
+    $(".qty").attr("placeholder", ++counter);
+      });
+	
+$(".cart-qty-minus").click(function(){
+    $(".qty").attr("placeholder", --counter);
+  });
 
 
 		});
